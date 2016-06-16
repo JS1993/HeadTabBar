@@ -3,7 +3,7 @@ a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, 
     margin: 0px;
 }
 
-#a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -58,12 +58,13 @@ ul{
 
 #tab #tab-content .dom{
     display: none;
+    text-decoration:none;
 }
 
 #tab #tab-content .dom ul li{
     float: left;
     width: 240px;
     margin-left: 4px;
-    margin-right: 15px;
-
+    margin-top: 15px;
+    text-decoration:none;
 }
